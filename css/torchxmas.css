@@ -43,19 +43,31 @@ margin-top: 50px;
 	background-color: #d75827;
 	border: none
 }
+.btn-warning:hover{
+	background-color: #c1c4ac;
+	border-color: #909284;
+}
 .morebtn{
 	text-align: center;
 }
 .morebtn a{
 	width: 100%;
+  border-bottom: 3px solid #bf4313;
+	transition: all 0.3s;
 }
-.linkinfo .infointro{
+.morebtn a:active{
+	border-width: 1px;
+	color: red;
+}
 
-	min-height: 150px;
+.linkinfo .infointro{
+	min-height: 135px;
 }
 
 .linkinfo h3,.linkinfo h4,.linkinfo p,.morebtn{
 	margin: 10px;
+	color: #3c763d;
+  text-align: justify;
 }
 .link_1 .linkinfo,.link_3 .linkinfo,.link_5 .linkinfo{
 	background-color: #fff5e0;
@@ -66,21 +78,18 @@ margin-top: 50px;
 }
 
 .hl{
-	color: #19596b;
+	color: #3c763d;
 	font-weight: bolder;
 }
 .hl > h3{
-	color: #b81c22;
+	color: #3c763d;
 	letter-spacing: 0.2rem;
 }
-
 
 .linkimg{
 	width: 100%;
 }
-.intro{
-	margin-top: 40px;
-}
+
 
 .movie{
 	background-color: #e9e5e6;

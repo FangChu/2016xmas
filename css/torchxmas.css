@@ -1,0 +1,156 @@
+body{
+margin-top: 50px;
+}
+
+.xmcontainer{
+	padding-left: 50px;
+	padding-right:50px;
+}
+.h_banner{
+	background-color: #e9e5e6;
+	background-image: url(../img/2015-xmas-web_banner-950x250.jpg);
+	background-size:cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-bottom: 23.3157%;
+}
+
+.link_1,.link_2,.link_3,.link_4,.link_5{
+	display: block;
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+
+.linkinfo{
+	width:100%;
+	min-height: 600px;
+	padding-bottom: 10px;
+}
+.morebtn{
+	text-align: center;
+}
+.morebtn a{
+	width: 100%;
+}
+.linkinfo .infointro{
+
+	min-height: 350px;
+}
+
+.linkinfo h3,.linkinfo h4,.linkinfo p,.morebtn{
+	margin: 10px;
+}
+.link_1 .linkinfo,.link_3 .linkinfo,.link_5 .linkinfo{
+	background-color: #89e0d7;
+
+}
+.link_4 .linkinfo,.link_2 .linkinfo{
+	background-color: #efefef;
+}
+
+.hl{
+	color: #19596b;
+	font-weight: bolder;
+}
+
+.linkimg{
+	width: 100%;
+}
+.intro{
+	margin-top: 40px;
+}
+
+.movie{
+	background-color: #e9e5e6;
+    padding: 0px;
+    padding-bottom: 56.25%;
+	margin-bottom: 20px;
+	width: 100%;
+    position: relative;
+}
+
+.tubeframe{
+	height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media (max-width: 767px){
+	body{
+		margin-top: 50px;
+	}
+	.h_banner{
+		
+		background-image: url(../img/2015-xmas-web-OL_banner-640x125.png);
+padding-bottom: 20.315789%;
+        background-size:contain;
+	}
+	 .infointro,.linkinfo,.morebtn{
+	 	display: none;
+	 	padding: 0px;
+	 }
+	 .link_1,.link_2,.link_3,.link_4,.link_5{
+		display: block;
+		margin: 0px;
+		padding: 0px;
+        margin-top: 5px;
+	}
+	.movie{
+		margin-bottom: 0px;
+	}
+
+	.phones{
+		padding: 0px;
+	}
+    
+    #navbar{
+        float: left;
+    }
+
+}
+
+
+
+@media (min-width: 768px){
+	body{
+	margin-top: 75px;
+	}
+
+	.link_3 .linkinfo{
+		background-color: #efefef;
+
+	}
+	.link_4 .linkinfo{
+		background-color: #89e0d7;
+
+	}
+
+
+}
+
+@media (min-width: 992px){
+	body{
+	margin-top: 50px;
+
+	}
+	.link_3 .linkinfo{
+		background-color: #89e0d7;
+
+	}
+	.link_4 .linkinfo{
+		background-color: #efefef;
+
+	}
+}
+
+footer{
+	background-color: #e9e5e6;	
+	}
+footer .fbanner{
+	background-color: #e9e5e6;
+	background-image: url(../img/2015-xmas-web_banner-950x250.jpg);
+	background-size:cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-bottom: 23.315789%;
+}

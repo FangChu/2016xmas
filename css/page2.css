@@ -1,0 +1,49 @@
+
+
+.h_banner{
+	background-color: #e9e5e6;
+	background-image: url(../img/2015-xmas-web-OL_kids-950x250.png);
+	background-size:contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-top: 25px;
+	padding-bottom: 20.315789%;
+}
+
+.maininfo{
+
+	width: 100%;
+	background-color: #FFF;
+}
+
+
+.row{
+	background-color: #FFF;}
+
+.maps{
+	width:80%;
+	background-color: #88dfd6;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+@media (max-width: 767px){
+	
+	.h_banner{
+		height: 125px;
+		background-image: url(../img/2015-xmas-web_kids-640x150.jpg);
+
+	}
+	.maininfo{
+	margin: 0px;
+	}
+
+	.maps{
+		width:100%;
+
+	}
+	h3,h4,p{
+		margin:15px;
+	}
+
+}

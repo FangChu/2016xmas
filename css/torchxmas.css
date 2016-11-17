@@ -1,15 +1,22 @@
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosansgurmukhiui.css);*/
+
 body{
 margin-top: 50px;
 }
 /*NAV*/
 .navbar-default{
-	border: none
+	border: none;
 }
 .navbar-default .navbar-brand{
-	color: #b81c22
+	color: #b81c22;
+	transition: all 0.3s;
 }
 .navbar-default .navbar-nav>li>a{
-	color: #b81c22
+	color: #b81c22;
+	transition: all 0.3s;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+	color: #134350;
 }
 
 .xmcontainer{

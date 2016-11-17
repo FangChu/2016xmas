@@ -1,6 +1,16 @@
 body{
 margin-top: 50px;
 }
+/*NAV*/
+.navbar-default{
+	border: none
+}
+.navbar-default .navbar-brand{
+	color: #b81c22
+}
+.navbar-default .navbar-nav>li>a{
+	color: #b81c22
+}
 
 .xmcontainer{
 	padding-left: 50px;
@@ -8,13 +18,16 @@ margin-top: 50px;
 }
 .h_banner{
 	background-color: #e9e5e6;
-	background-image: url(../img/2015-xmas-web_banner-950x250.jpg);
-	background-size:cover;
+	background-image: url(../img/home.jpg);
+	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	padding-bottom: 23.3157%;
-}
+	min-height: 700px;
+	margin: 25px 0;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
 
+}
 .link_1,.link_2,.link_3,.link_4,.link_5{
 	display: block;
 	background-color: transparent;
@@ -23,8 +36,12 @@ margin-top: 50px;
 
 .linkinfo{
 	width:100%;
-	min-height: 600px;
 	padding-bottom: 10px;
+}
+/*btns*/
+.btn-warning{
+	background-color: #d75827;
+	border: none
 }
 .morebtn{
 	text-align: center;
@@ -34,24 +51,29 @@ margin-top: 50px;
 }
 .linkinfo .infointro{
 
-	min-height: 350px;
+	min-height: 150px;
 }
 
 .linkinfo h3,.linkinfo h4,.linkinfo p,.morebtn{
 	margin: 10px;
 }
 .link_1 .linkinfo,.link_3 .linkinfo,.link_5 .linkinfo{
-	background-color: #89e0d7;
+	background-color: #fff5e0;
 
 }
 .link_4 .linkinfo,.link_2 .linkinfo{
-	background-color: #efefef;
+	background-color: #ffffff;
 }
 
 .hl{
 	color: #19596b;
 	font-weight: bolder;
 }
+.hl > h3{
+	color: #b81c22;
+	letter-spacing: 0.2rem;
+}
+
 
 .linkimg{
 	width: 100%;
@@ -80,9 +102,10 @@ margin-top: 50px;
 		margin-top: 50px;
 	}
 	.h_banner{
-		
-		background-image: url(../img/2015-xmas-web-OL_banner-640x125.png);
-padding-bottom: 20.315789%;
+
+		/*background-image: url(../img/2015-xmas-web-OL_banner-640x125.png);*/
+	padding-bottom: 20.315789%;
+	min-height: 300px;
         background-size:contain;
 	}
 	 .infointro,.linkinfo,.morebtn{
@@ -91,7 +114,6 @@ padding-bottom: 20.315789%;
 	 }
 	 .link_1,.link_2,.link_3,.link_4,.link_5{
 		display: block;
-		margin: 0px;
 		padding: 0px;
         margin-top: 5px;
 	}
@@ -102,7 +124,7 @@ padding-bottom: 20.315789%;
 	.phones{
 		padding: 0px;
 	}
-    
+
     #navbar{
         float: left;
     }
@@ -117,7 +139,7 @@ padding-bottom: 20.315789%;
 	}
 
 	.link_3 .linkinfo{
-		background-color: #efefef;
+		background-color: #ffffff;
 
 	}
 	.link_4 .linkinfo{
@@ -134,17 +156,17 @@ padding-bottom: 20.315789%;
 
 	}
 	.link_3 .linkinfo{
-		background-color: #89e0d7;
+		background-color: #fff5e0;
 
 	}
 	.link_4 .linkinfo{
-		background-color: #efefef;
+		background-color: #ffffff;
 
 	}
 }
 
 footer{
-	background-color: #e9e5e6;	
+	background-color: #e9e5e6;
 	}
 footer .fbanner{
 	background-color: #e9e5e6;

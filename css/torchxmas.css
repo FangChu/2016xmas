@@ -192,3 +192,12 @@ footer .fbanner{
 	background-repeat: no-repeat;
 	padding-bottom: 23.315789%;
 }
+
+.copyright {
+    text-align: center;
+    background: none;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
+}

@@ -1,15 +1,23 @@
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosansgurmukhiui.css);*/
+
 body{
 margin-top: 50px;
 }
 /*NAV*/
 .navbar-default{
-	border: none
+	border: none;
 }
 .navbar-default .navbar-brand{
-	color: #b81c22
+	color: #b81c22;
+	transition: all 0.3s;
 }
 .navbar-default .navbar-nav>li>a{
-	color: #b81c22
+	color: #b81c22;
+	transition: all 0.3s;
+    letter-spacing: 0.2rem;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+	color: #134350;
 }
 
 .xmcontainer{
@@ -184,4 +192,13 @@ footer .fbanner{
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding-bottom: 23.315789%;
+}
+
+.copyright {
+    text-align: center;
+    background: none;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
 }

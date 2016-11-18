@@ -1,13 +1,15 @@
 
 
 .h_banner{
-	background-color: #e9e5e6;
+	background-color: #fff;
 	background-image: url(../img/show1.png);
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding-top: 25px;
 	padding-bottom: 20.315789%;
+	border-radius: 0px
+
 }
 
 .maininfo{
@@ -31,7 +33,6 @@
 
 	.h_banner{
 		height: 125px;
-		background-image: url(../img/2015_TORCH_taste_of_happiness_640px_150px.jpg);
 
 	}
 	.maininfo{

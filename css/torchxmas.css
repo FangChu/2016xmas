@@ -1,8 +1,18 @@
-/*@import url(http://fonts.googleapis.com/earlyaccess/notosansgurmukhiui.css);*/
+@font-face {
+    font-family: myfont;
+    src: url(http://fonts.googleapis.com/earlyaccess/notosansgurmukhiui.css);
+		font-weight: 500;
+}
+
+::selection{
+	background: #e49f54;
+	color: #fff;
+}
 
 body{
 margin-top: 50px;
 }
+
 /*NAV*/
 .navbar-default{
 	border: none;
@@ -10,6 +20,7 @@ margin-top: 50px;
 .navbar-default .navbar-brand{
 	color: #b81c22;
 	transition: all 0.3s;
+  letter-spacing: 0.1rem;
 }
 .navbar-default .navbar-nav>li>a{
 	color: #b81c22;
@@ -19,13 +30,32 @@ margin-top: 50px;
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
 	color: #134350;
 }
+/*Mb-NAV*/
+.navbar-default .navbar-toggle{
+	border-color: #b81c22;
+	transition: all 0.3s;
+}
+.navbar-default .navbar-toggle .icon-bar,.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+	background-color: #b81c22;
+}
+.navbar-default .navbar-toggle:hover span,.navbar-default .navbar-toggle:focus span{
+	background-color: #ffffff;
+}
+.Toptitle{
+	font-size: 24px;
+	font-family: myfont;
+	color: #fff;
+	margin-bottom: 35px;
+	letter-spacing: 0.2rem;
+}
+
 
 .xmcontainer{
 	padding-left: 50px;
 	padding-right:50px;
 }
 .h_banner{
-	background-color: #e9e5e6;
+	background-color: #fff;
 	background-image: url(../img/home.jpg);
 	background-size: cover;
 	background-position: center center;
@@ -48,24 +78,28 @@ margin-top: 50px;
 }
 /*btns*/
 .btn-warning{
-	background-color: #d75827;
-	border: none
+	background-color: #3c763d;
+	border: none;
 }
-.btn-warning:hover{
-	background-color: #c1c4ac;
-	border-color: #909284;
-}
+
 .morebtn{
 	text-align: center;
 }
 .morebtn a{
 	width: 100%;
-  border-bottom: 3px solid #bf4313;
+  border-bottom: 3px solid  #1e581f;
 	transition: all 0.3s;
 }
+.btn-warning:hover{
+	background-color: #d75827;
+	border-color: #bb4c21;
+}
+.btn-warning:active,.btn-warning:active:focus{
+	background-color: #d75827;
+  border-color: #d75827;
+}
 .morebtn a:active{
-	border-width: 1px;
-	color: red;
+	color: #fff;
 }
 
 .linkinfo .infointro{
@@ -92,6 +126,7 @@ margin-top: 50px;
 .hl > h3{
 	color: #3c763d;
 	letter-spacing: 0.2rem;
+	line-height: 1.3;
 }
 
 .linkimg{
@@ -114,16 +149,18 @@ margin-top: 50px;
     position: absolute;
 }
 
+
+
 @media (max-width: 767px){
 	body{
 		margin-top: 50px;
 	}
 	.h_banner{
-
 		/*background-image: url(../img/2015-xmas-web-OL_banner-640x125.png);*/
 	padding-bottom: 20.315789%;
-	min-height: 300px;
-        background-size:contain;
+	min-height: 350px;
+	border-radius: 0px;
+  background-size:contain;
 	}
 	 .infointro,.linkinfo,.morebtn{
 	 	display: none;
@@ -144,6 +181,7 @@ margin-top: 50px;
 
     #navbar{
         float: left;
+				width: 150%;
     }
 
 }
@@ -154,14 +192,15 @@ margin-top: 50px;
 	body{
 	margin-top: 75px;
 	}
-
+	.nav>li>a{
+		padding: 10px 8px;
+	}
 	.link_3 .linkinfo{
 		background-color: #ffffff;
 
 	}
-	.link_4 .linkinfo{
-		background-color: #89e0d7;
-
+	.navbar-nav{
+		margin-top: 5px;
 	}
 
 
@@ -172,14 +211,16 @@ margin-top: 50px;
 	margin-top: 50px;
 
 	}
+	.navbar-nav{
+		margin-left: 50px;
+	}
+
+
 	.link_3 .linkinfo{
 		background-color: #fff5e0;
 
 	}
-	.link_4 .linkinfo{
-		background-color: #ffffff;
 
-	}
 }
 
 footer{
@@ -201,4 +242,12 @@ footer .fbanner{
     color: #fff;
     letter-spacing: 0.1rem;
     font-weight: 100;
+		margin: 30px 0;
+}
+
+@media (max-width: 320px){
+	.h_banner{
+		min-height: 162px;
+		background-color: transparent;
+	}
 }

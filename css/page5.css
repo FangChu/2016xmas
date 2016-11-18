@@ -1,8 +1,8 @@
 
 
 .h_banner{
-	background-color: #88dfd6;
-	background-image: url(../img/sunday-01.jpg);
+	background-color: #e9e5e6;
+	background-image: url(../img/show5.png);
 	background-size:contain;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -13,25 +13,25 @@
 .maininfo{
 
 	width: 100%;
-	background-color: #88dfd6;
+	background-color: #FFF;
 }
 
 
 .row{
-	background-color: #88dfd6;}
+	background-color: #FFF;}
 
 .maps{
 	width:80%;
-	background-color: #333;
+	background-color: #88dfd6;
 	padding: 15px;
 	border-radius: 10px;
 }
 
 @media (max-width: 767px){
-	
+
 	.h_banner{
 		height: 125px;
-		background-image: url(../img/sunday-02.jpg);
+		background-image: url(../img/show5.png);
 
 	}
 	.maininfo{
@@ -48,5 +48,8 @@
 
 }
 .hl{
-	color: #19596b;
+	color: #3c763d;
+}
+b{
+	color: #b81c22;
 }

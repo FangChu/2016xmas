@@ -1,8 +1,8 @@
 
 
 .h_banner{
-	background-color: #fff;
-	background-image: url(../img/2015-xmas-web-OL_High-950x250.png);
+	background-color: #e9e5e6;
+	background-image: url(../img/show4.png);
 	background-size:contain;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -13,25 +13,25 @@
 .maininfo{
 
 	width: 100%;
-	background-color: #88dfd6;
+	background-color: #FFF;
 }
 
 
 .row{
-	background-color: #88dfd6;}
+	background-color: #FFF;}
 
 .maps{
 	width:80%;
-	background-color: #333;
+	background-color: #88dfd6;
 	padding: 15px;
 	border-radius: 10px;
 }
 
 @media (max-width: 767px){
-	
+
 	.h_banner{
 		height: 125px;
-		background-image: url(../img/2015-xmas-web_high-640x150.jpg);
+		background-image: url(../img/show4.png);
 
 	}
 	.maininfo{
@@ -48,5 +48,5 @@
 
 }
 .hl{
-	color: #19596b;
+	color: #3c763d;
 }

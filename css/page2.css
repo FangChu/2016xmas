@@ -2,7 +2,7 @@
 
 .h_banner{
 	background-color: #e9e5e6;
-	background-image: url(../img/2015-xmas-web-OL_kids-950x250.png);
+	background-image: url(../img/show2.png);
 	background-size:contain;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 }
 
 @media (max-width: 767px){
-	
+
 	.h_banner{
 		height: 125px;
 		background-image: url(../img/2015-xmas-web_kids-640x150.jpg);

@@ -28,6 +28,12 @@
 	padding: 15px;
 	border-radius: 10px;
 }
+@media (max-width: 992px){
+	.h_banner{
+		min-height: 380px;
+    margin-top: 35px;
+	}
+}
 
 @media (max-width: 767px){
 

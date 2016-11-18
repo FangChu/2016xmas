@@ -29,10 +29,17 @@
 	border-radius: 10px;
 }
 
+@media (max-width: 992px){
+	.h_banner{
+		min-height: 380px;
+    margin-top: 35px;
+	}
+}
+
 @media (max-width: 767px){
 
 	.h_banner{
-		height: 125px;
+		min-height: 125px;
 
 	}
 	.maininfo{

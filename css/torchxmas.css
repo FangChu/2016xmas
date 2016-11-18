@@ -1,7 +1,13 @@
 @font-face {
-    font-family: myfont;
-    src: url(http://fonts.googleapis.com/earlyaccess/notosansgurmukhiui.css);
-		font-weight: 500;
+    font-family: 'Noto Sans TC', sans-serif;
+    src: url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+		font-weight: 900;
+}
+
+@font-face {
+    font-family: 'cwTeXYen', sans-serif;
+    src: url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+		font-weight: 900;
 }
 
 ::selection{
@@ -11,6 +17,8 @@
 
 body{
 margin-top: 50px;
+font-family: 'Noto Sans TC', sans-serif,"xingothic-tc-w4","XinGothic-TC W4","LantingHei TC","Apple LiGothic","Microsoft JhengHei";
+letter-spacing: 0.1rem;
 }
 
 img{
@@ -21,6 +29,7 @@ img{
 	width: 50px;
   margin-left: 5px;
 }
+
 
 /*NAV*/
 .navbar-default{
@@ -64,7 +73,7 @@ img{
 
 .Toptitle{
 	font-size: 24px;
-	font-family: myfont;
+	font-family: 'cwTeXYen', serif;
 	color: #fff;
 	margin-bottom: 35px;
 	letter-spacing: 0.2rem;
@@ -139,10 +148,25 @@ img{
 .link_4 .linkinfo,.link_2 .linkinfo{
 	background-color: #ffffff;
 }
+.pagetitle{
+  color: #3c763d;
+  letter-spacing: 0.2rem;
+  font-family: myfont;
+}
+.pagetitle > .subtitle{
+  display: block;
+margin-top: 10px;
+font-size: 1.8rem;
+color: #96c184;
+line-height: 1.3;
+}
 
 .hl{
 	color: #3c763d;
 	font-weight: bolder;
+  font-size: 1.7rem;
+  border-left: 6px solid #3c763d;
+  padding-left: 10px;
 }
 .hl > h3{
 	color: #3c763d;
@@ -225,13 +249,14 @@ img{
 	body{
 	margin-top: 75px;
 	}
+  .navbar-brand{
+    width: 50px;
+    display: inline-block;;
+  }
 	.nav>li>a{
 		padding: 10px 8px;
 	}
-	.link_3 .linkinfo{
-		background-color: #ffffff;
 
-	}
 	.navbar-nav{
 		margin-top: 55px;
 	}
@@ -240,6 +265,7 @@ img{
 		position: absolute;
 		left: 50%;
 		top: 5px;
+    margin-left: -30px;
 
 	}
 	.navbar-default .navbar-collapse{

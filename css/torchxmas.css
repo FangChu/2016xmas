@@ -175,6 +175,10 @@ img{
 	body{
 		margin-top: 50px;
 	}
+#navbar{
+	    margin-top: 8px;
+}
+
 	.h_banner{
 		/*background-image: url(../img/2015-xmas-web-OL_banner-640x125.png);*/
 	padding-bottom: 20.315789%;
@@ -207,7 +211,15 @@ img{
     }
 
 }
+@media (min-width: 320px) {
+	.navbar-default .navbar-collapse{
+		padding: 0px 0 3px;
+	}
+	.navbar-nav{
+		margin: 0;
+	}
 
+}
 
 @media (min-width: 768px){
 	body{
@@ -221,7 +233,7 @@ img{
 
 	}
 	.navbar-nav{
-		margin-top: 10px;
+		margin-top: 55px;
 	}
 	.navbar-brand>img{
 		width: 50px;
@@ -230,10 +242,16 @@ img{
 		top: 5px;
 
 	}
+	.navbar-default .navbar-collapse{
+		padding: 0 0 0;
+	}
 
 }
 
 @media (min-width: 1024px){
+	.navbar-nav{
+		margin-top: 10px;
+	}
 	.container>.navbar-header{
     margin-right: 85px;
 	}
@@ -270,9 +288,18 @@ footer .fbanner{
 		margin: 30px 0;
 }
 
-@media (max-width: 320px){
+@media (max-width: 480px){
+	.Toptitle{
+		font-size: 20px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+
+	.Toptitle span{
+		display: block;
+	}
 	.h_banner{
-		min-height: 162px;
+		min-height: 165px;
 		background-color: transparent;
 	}
 }

@@ -284,6 +284,7 @@ line-height: 1.3;
 @media (min-width: 1024px){
   .linkinfo h3{
     letter-spacing: 0;
+    font-size: 2.0rem;
   }
 	.navbar-nav{
 		margin-top: 10px;

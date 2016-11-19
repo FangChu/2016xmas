@@ -84,13 +84,13 @@ img{
 	padding-left: 50px;
 	padding-right:50px;
 }
-.h_banner{
+.home_banner{
 	background-color: #fff;
 	background-image: url(../img/home.jpg);
 	background-size: cover;
-	background-position: center center;
+    background-position: 50% -132px;
 	background-repeat: no-repeat;
-	min-height: 700px;
+	min-height: 372px;
 	margin: 25px 0;
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
@@ -105,6 +105,9 @@ img{
 .linkinfo{
 	width:100%;
 	padding-bottom: 10px;
+}
+.linkinfo .hl{
+	margin-top: 0;
 }
 /*btns*/
 .btn-warning{
@@ -151,7 +154,6 @@ img{
 .pagetitle{
   color: #3c763d;
   letter-spacing: 0.2rem;
-  font-family: myfont;
 }
 .pagetitle > .subtitle{
   display: block;
@@ -167,6 +169,8 @@ line-height: 1.3;
   font-size: 1.7rem;
   border-left: 6px solid #3c763d;
   padding-left: 10px;
+  margin: 40px 0px 20px;
+  display: block;
 }
 .hl > h3{
 	color: #3c763d;
@@ -192,6 +196,7 @@ line-height: 1.3;
 	height: 100%;
     width: 100%;
     position: absolute;
+    margin-top: 0px;
 }
 
 
@@ -316,7 +321,11 @@ footer .fbanner{
     font-weight: 100;
 		margin: 30px 0;
 }
-
+@media (max-width: 992px){
+	.home_banner{
+    background-position: center;
+	}
+}
 @media (max-width: 480px){
 	.Toptitle{
 		font-size: 20px;
@@ -327,8 +336,25 @@ footer .fbanner{
 	.Toptitle span{
 		display: block;
 	}
-	.h_banner{
-		min-height: 165px;
-		background-color: transparent;
+	.home_banner{
+		min-height: 211px;
+    background-position: 0px -8px;
+    margin-bottom: 10px;
 	}
+}
+
+@media (max-width: 320px){
+
+	.h_banner{
+	    margin: 35px 0 0; 
+	}
+	.pagetitle{
+    margin: 20px 0;	
+	}
+
+	.tubeframe{
+		margin-top: 10px;
+	}
+
+
 }

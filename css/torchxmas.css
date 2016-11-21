@@ -151,7 +151,6 @@ img{
 .pagetitle{
   color: #3c763d;
   letter-spacing: 0.2rem;
-  font-family: myfont;
 }
 .pagetitle > .subtitle{
   display: block;

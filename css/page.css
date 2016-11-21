@@ -60,6 +60,9 @@
 		min-height: 380px;
     margin-top: 35px;
 	}
+	.maininfo{
+		width: 100%;
+	}
 }
 
 
@@ -98,10 +101,13 @@
 
 	}
 	.list{
-    margin-left: -20px;
+    margin-left: -35px;
+	}
+	.pagetitle{
+		margin-left: 0;
 	}
 	.special{
-		margin-left: 20px;
+		margin-left: 0px;
 		display: block;;
 	}
 }

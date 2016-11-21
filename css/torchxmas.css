@@ -84,13 +84,13 @@ img{
 	padding-left: 50px;
 	padding-right:50px;
 }
-.h_banner{
+.home_banner{
 	background-color: #fff;
-	background-image: url(../img/home.jpg);
+	background-image: url(../img/banner.jpg);
 	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	min-height: 700px;
+    background-position: 0px 58%;
+    background-repeat: no-repeat;
+    min-height: 350px;
 	margin: 25px 0;
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
@@ -106,6 +106,11 @@ img{
 	width:100%;
 	padding-bottom: 10px;
 }
+.linkinfo .hl{
+	margin-top: 0;
+	margin-left: 10px;
+}
+
 /*btns*/
 .btn-warning{
 	background-color: #3c763d;
@@ -141,6 +146,7 @@ img{
 	color: #3c763d;
   text-align: justify;
 }
+
 .link_1 .linkinfo,.link_3 .linkinfo,.link_5 .linkinfo{
 	background-color: #fff5e0;
 
@@ -166,6 +172,8 @@ line-height: 1.3;
   font-size: 1.7rem;
   border-left: 6px solid #3c763d;
   padding-left: 10px;
+  margin: 40px 0px 20px;
+  display: block;
 }
 .hl > h3{
 	color: #3c763d;
@@ -188,9 +196,9 @@ line-height: 1.3;
 }
 
 .tubeframe{
-	height: 100%;
+	height: 550px;
     width: 100%;
-    position: absolute;
+    margin-top: 0px;
 }
 
 
@@ -239,7 +247,7 @@ line-height: 1.3;
 		padding: 0px 0 3px;
 	}
 	.navbar-nav{
-		margin: 0;
+		margin: 5px 0 0;
 	}
 
 }
@@ -276,6 +284,7 @@ line-height: 1.3;
 @media (min-width: 1024px){
   .linkinfo h3{
     letter-spacing: 0;
+    font-size: 2.0rem;
   }
 	.navbar-nav{
 		margin-top: 10px;
@@ -315,8 +324,29 @@ footer .fbanner{
     font-weight: 100;
 		margin: 30px 0;
 }
+@media (max-width: 1024px){
+	.home_banner{
+    background-position: 0px 0px;
+    min-height: 500px;
+	}
 
+}
+@media (max-width: 992px){
+	.home_banner{
+		min-height: 400px;
+    background-position: 0px 0px;
+	}
+	.tubeframe {
+    height: 500px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: -10px;
+	}
+}
 @media (max-width: 480px){
+	.tubeframe{
+		height: 245px;
+	}
 	.Toptitle{
 		font-size: 20px;
 		margin-bottom: 20px;
@@ -326,8 +356,30 @@ footer .fbanner{
 	.Toptitle span{
 		display: block;
 	}
-	.h_banner{
-		min-height: 165px;
-		background-color: transparent;
+	.home_banner{
+	min-height: 190px;
+    background-position: 0px 0px;
+    margin: 0px 0 10px;
 	}
+}
+
+@media (max-width: 320px){
+
+	.home_banner{
+	min-height: 140px;
+    background-position: 0px -8px;
+    margin: 10px 0;
+	}
+
+	.tubeframe{
+		margin-top: 0px;
+	    height: 200px;
+	}
+	.pagetitle{
+    margin: 20px 0;	
+	}
+
+	
+
+
 }

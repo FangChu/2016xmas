@@ -6,7 +6,8 @@
 	background-repeat: no-repeat;
 	padding-bottom: 0;
 	border-radius: 0px;
-  margin-top: 5px;
+	min-height: 645px;
+	  margin-top: 5px;
 }
 .h_banner.show1{
   background-image: url(../img/show1.png);
@@ -41,6 +42,7 @@
 }
 .special{
 	color: #b81c22;
+	margin: 30px 0 10px;
 }
 .list{
 	margin-left: -40px;
@@ -49,12 +51,29 @@
 .list li{
   margin-bottom: 8px;
 	list-style-type: none;
+    word-break: break-all;
 }
-
+.list span{
+	display: inline-block;
+}
 .list li:nth-child(even){
 	color: #f1794a;
 }
 
+.notes{
+    padding: 0;
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+.notes>.title{
+	color: #b81c22;
+	margin-bottom: 10px;
+}
+@media (max-width: 1024px){
+.h_banner{
+    min-height: 540px;
+	}
+}
 @media (max-width: 992px){
 	.h_banner{
 		min-height: 380px;
@@ -74,13 +93,14 @@
 	}
 	.maininfo{
 	margin: 0px;
+	width: 100%;
 	}
 
 	.maps{
 		width:100%;
 
 	}
-	h3,h4,p{
+	h3,h4{
 		margin:5px;
     line-height: 1.3;
 	}
@@ -98,7 +118,6 @@
 	.h_banner{
 		min-height: 205px;
 		margin: 10px 0 0 ;
-
 	}
 	.list{
     margin-left: -35px;
@@ -109,5 +128,32 @@
 	.special{
 		margin-left: 0px;
 		display: block;;
+	}
+}
+
+@media (max-width: 320px){
+		.h_banner{
+		min-height: 180px;
+		margin: 10px 0 0 ;
+	}
+
+	.list{
+		margin-left: -40px;
+	}
+	.list span{
+		font-size: 12px;
+}
+	.list .note{
+		display: block;
+	}
+	.special{
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+
+	.subtext{
+		margin: 25px 0;
+		text-align: justify;
+		line-height: 1.5;
 	}
 }

@@ -30,6 +30,7 @@ img{
 .navbar-default{
 	border: none;
 	padding: 5px 0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.11);
 }
 .navbar-default .navbar-brand{
 	color: #b81c22;
@@ -70,10 +71,20 @@ img{
 	font-size: 24px;
 	font-family: 'cwTeXYen', serif;
 	color: #fff;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 	letter-spacing: 0.2rem;
 }
 
+.announce{
+	background: #fff5e0;
+    color: #e15924;
+    border: 3px solid #dff0d8;
+    border-radius: 1px;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 0 10px 15px;
+    font-weight: 900;
+}
 
 .xmcontainer{
 	padding-left: 50px;
@@ -200,6 +211,8 @@ line-height: 1.3;
 }
 
 
+
+/*footer*/
 .gotorch{
   width: 90px;
   display: block;

@@ -306,7 +306,9 @@ line-height: 1.3;
 	.nav>li>a{
 		padding: 10px 8px;
 	}
-
+.linkinfo{
+		margin-top: 15px;
+	}
 	/*.navbar-nav{
 		margin-top: 55px;
 	}*/
@@ -379,6 +381,9 @@ footer .fbanner{
     width: 100%;
     margin-top: 0px;
     margin-bottom: -10px;
+	}
+	.linkinfo{
+		margin-top: 15px;
 	}
 }
 @media (max-width: 480px){
